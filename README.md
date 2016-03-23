@@ -4,7 +4,7 @@ A simple program build in Node.js for controlling your computer with a web brows
 ## How To Use
 Run by typing
 ```
-node server.js
+node index.js
 ```
 The server runs on port 8080
 
