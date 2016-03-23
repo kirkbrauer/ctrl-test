@@ -1,0 +1,23 @@
+{
+  "name": "ctrl-test",
+  "description": "A simple system for controlling computer with mobile website",
+  "main": "index.js",
+  "authors": [
+    "Kirk Brauer"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "hammer.js#^2.0.6",
+    "pressure": "^1.0.1"
+  }
+}

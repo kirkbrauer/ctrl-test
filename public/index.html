@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" id="html" style="height:100%">
+<head>
+  <title>Trackpad Test</title>
+  <script src="/public/components/socket.io-client/socket.io.js"></script>
+  <script src="/public/components/hammerjs/hammer.min.js"></script>
+  <script src="/public/components/pressure/dist/pressure.min.js"></script>
+  <script src="/public/trackpad.js"></script>
+  <meta name="viewport" content="width=device-width,user-scalable=yes" />
+  <style>
+    body {
+	     font-family: helvetica, arial, sans serif;
+       height:100%;
+       -webkit-user-select: none;
+       -webkit-user-drag: none;
+     }
+     #sphere {
+	      position: absolute;
+	       width: 50px;
+	        height: 50px;
+	         border-radius: 50px;
+	          -webkit-radius: 50px;
+	   background-color: blue;
+   }
+   </style>
+</head>
+
+<body onload="init()" id="body">
+  <h1>Trackpad Test</h1>
+  <h2>Kirk Brauer</h2>
+  <h3>MIT</h3>
+  <p>Drag your finger to move cursor and tap to click</p>
+  <p>To Right click (on compataible devices) force/3d touch</p>
+</body>
+</html>
